@@ -1,19 +1,13 @@
 //
-//  bbb.m
+//  ccc.h
 //  test
 //
 //  Created by greenlaw on 2018/9/13.
 //  Copyright © 2018年 greenlaw. All rights reserved.
 //
 
-#import "bbb.h"
+#import <Foundation/Foundation.h>
 
-@implementation bbb
-
-dev
-
-dev
-
-master
+@interface ccc : NSObject
 
 @end
