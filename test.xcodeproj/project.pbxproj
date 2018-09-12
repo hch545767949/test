@@ -13,6 +13,8 @@
 		40B2957921497AAC00DAAE0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40B2957821497AAC00DAAE0F /* Assets.xcassets */; };
 		40B2957C21497AAC00DAAE0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40B2957A21497AAC00DAAE0F /* LaunchScreen.storyboard */; };
 		40B2957F21497AAC00DAAE0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B2957E21497AAC00DAAE0F /* main.m */; };
+		40B2958721497AD600DAAE0F /* aaa.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B2958621497AD600DAAE0F /* aaa.m */; };
+		40B2958A21497AE200DAAE0F /* bbb.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B2958921497AE200DAAE0F /* bbb.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		40B2957B21497AAC00DAAE0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40B2957D21497AAC00DAAE0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40B2957E21497AAC00DAAE0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40B2958521497AD600DAAE0F /* aaa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aaa.h; sourceTree = "<group>"; };
+		40B2958621497AD600DAAE0F /* aaa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aaa.m; sourceTree = "<group>"; };
+		40B2958821497AE200DAAE0F /* bbb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bbb.h; sourceTree = "<group>"; };
+		40B2958921497AE200DAAE0F /* bbb.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bbb.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				40B2957A21497AAC00DAAE0F /* LaunchScreen.storyboard */,
 				40B2957D21497AAC00DAAE0F /* Info.plist */,
 				40B2957E21497AAC00DAAE0F /* main.m */,
+				40B2958521497AD600DAAE0F /* aaa.h */,
+				40B2958621497AD600DAAE0F /* aaa.m */,
+				40B2958821497AE200DAAE0F /* bbb.h */,
+				40B2958921497AE200DAAE0F /* bbb.m */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -141,9 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40B2958A21497AE200DAAE0F /* bbb.m in Sources */,
 				40B2957421497AA900DAAE0F /* ViewController.m in Sources */,
 				40B2957F21497AAC00DAAE0F /* main.m in Sources */,
 				40B2957121497AA900DAAE0F /* AppDelegate.m in Sources */,
+				40B2958721497AD600DAAE0F /* aaa.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
